@@ -30,7 +30,7 @@ header {
 
 /* Style the container */
 .container {
-    
+
     width: 100%;
     overflow: hidden;
     /* To contain floated elements */
@@ -46,7 +46,7 @@ header {
     gap: 70px;
     background-color: #fff;
     padding: 20px;
-    
+
 
 }
 
@@ -57,18 +57,21 @@ header {
     padding: 20px 35px;
     transition: .6s;
 }
-.game:hover{
+
+.game:hover {
     padding: 30px 50px;
 }
-.game:hover .game-btn{
+
+.game:hover .game-btn {
     padding: 15px 30px;
 }
+
 .game-title {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.game-btn { 
+.game-btn {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -91,7 +94,9 @@ header {
     background-color: #f4f4f4;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}/* Reset some default styles */
+}
+
+/* Reset some default styles */
 body,
 h1,
 h2,
@@ -123,7 +128,7 @@ header {
 
 /* Style the container */
 .container {
-    
+
     width: 100%;
     overflow: hidden;
     /* To contain floated elements */
@@ -139,7 +144,7 @@ header {
     gap: 70px;
     background-color: #fff;
     padding: 20px;
-    
+
 
 }
 
@@ -150,18 +155,21 @@ header {
     padding: 20px 35px;
     transition: .6s;
 }
-.game:hover{
+
+.game:hover {
     padding: 30px 50px;
 }
-.game:hover .game-btn{
+
+.game:hover .game-btn {
     padding: 15px 30px;
 }
+
 .game-title {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.game-btn { 
+.game-btn {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -184,4 +192,16 @@ header {
     background-color: #f4f4f4;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-text {
+    font-size: 14px;
 }
