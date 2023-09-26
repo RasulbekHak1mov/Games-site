@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d1d1d;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-color: #302a2a;
+}
+.button-container button{
+    background-color: #2ecc71;
+    color: black;
+    padding: 10px 20px;
+    transition: .3s;
+}
+.button-container button:hover{
+    background-color: #1c9e52;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.snake,
+.food {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #2ecc71;
+    transition: 0.1s ease-in-out;
+}
+
+.food {
+    background-color: #e74c3c;
+}
