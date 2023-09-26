@@ -22,15 +22,18 @@ h1 {
     border: 1px solid #ccc;
     background-color: #302a2a;
 }
-.button-container button{
+
+.button-container button {
     background-color: #2ecc71;
     color: black;
     padding: 10px 20px;
     transition: .3s;
 }
-.button-container button:hover{
+
+.button-container button:hover {
     background-color: #1c9e52;
 }
+
 .button-container {
     display: flex;
     justify-content: center;
