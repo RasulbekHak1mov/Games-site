@@ -18,7 +18,6 @@ let direction = 'right';
 let gameInterval;
 let snakeLength = 1;
 let foodEaten = false;
-
 function updateScore() {
     scoreDisplay.textContent = `Balllar: ${score}`;
 }
