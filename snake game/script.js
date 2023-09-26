@@ -19,7 +19,7 @@ let gameInterval;
 let snakeLength = 1;
 let foodEaten = false;
 function updateScore() {
-    scoreDisplay.textContent = `Balllar: ${score}`;
+    scoreDisplay.textContent = `Ballar: ${score}`;
 }
 
 function randomPosition(max) {

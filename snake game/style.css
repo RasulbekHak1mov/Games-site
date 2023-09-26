@@ -24,10 +24,13 @@ h1 {
 }
 
 .button-container button {
+    width: 100%; /* Buttonning to'liq o'lchamiga moslashadi */
     background-color: #2ecc71;
     color: black;
     padding: 10px 20px;
     transition: .3s;
+    border: none;
+    cursor: pointer;
 }
 
 .button-container button:hover {
@@ -35,11 +38,12 @@ h1 {
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+   display: flex;
+   justify-content: space-around; /* Tugmalar o'rtasida teng bo'lishi uchun */
+   align-items: center;
+   margin-top: 20px;
 }
+
 
 .snake,
 .food {
@@ -52,4 +56,13 @@ h1 {
 
 .food {
     background-color: #e74c3c;
+}
+.harakat{
+    font-weight: 600;
+}
+#start-button{
+    background-color: #0ecf3e;
+}
+#reset-button{
+    background-color: #0ecf3e;
 }
